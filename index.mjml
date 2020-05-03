@@ -1,0 +1,207 @@
+<mjml>
+    <mj-head>
+        <mj-title>Vana Lao</mj-title>
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,500"></mj-font>
+        <mj-all font-family="Roboto, Helvetica, sans-serif"></mj-all>
+        <mj-attributes>
+            <mj-style> .hover:hover td, .hover:hover p { background-color: red !important; } </mj-style>
+            <mj-all font-family="Roboto, Helvetica, sans-serif"></mj-all>
+            <mj-text font-weight="300" font-size="16px" color="#616161" line-height="24px"></mj-text>
+            <mj-section padding="0px"></mj-section>
+        </mj-attributes>
+
+    </mj-head>
+    <mj-body background-color="white" >
+
+            <!------HEADER-------->
+        <mj-section 
+        background-color="white">
+            <mj-column width="100%">
+                <mj-image 
+                href="https://mjml.io" 
+                src="https://www.trax-distribution.fr/emailing/vanajanvier/entete.jpg" 
+                alt="Racoon logo" 
+                align="center"
+                padding="10px">
+                </mj-image>
+            </mj-column>
+        </mj-section>
+
+        <!--------AUTOPORTRAIT------------>
+
+        <mj-section 
+        background-color="white" 
+        padding-top="20px"
+        padding-bottom="0" >
+            <mj-column >
+                <mj-image 
+                width="170px" 
+                height="195px"
+                border-radius="100%"
+                src="https://www.trax-distribution.fr/emailing/vanajanvier/Portrait_Vanna.jpg">
+                </mj-image>
+                <mj-text 
+                padding="0"    
+                font-weight="bold" 
+                align="center" 
+                font-size="24px" >
+                    Vanna Lao
+                </mj-text>
+                <mj-text 
+                align="center" 
+                font-size="15px" 
+                padding="0">
+                    <p> vlao@trax-distribution.com</br>07.84.22.03.97 </p>
+                </mj-text>
+            </mj-column>
+
+            <mj-column>
+                <mj-text 
+                align="justify" 
+                font-size="15px" >
+                    <p> Chers clients, </p>
+                    <p> Suite à ma nomination en tant que directeur des ventes chez Trax Distribution et après plusieurs années de collaboration avec vous, j'ai le plaisir de vous présenter le catalogue et les offres chez Trax.
+                    Je reste à votre écoute, alors n'hésitez pas à me contacter et je vous invite dès à présent à découvrir la boutique en ligne ! </br> </p>
+                </mj-text>
+
+            </mj-column>
+        </mj-section>
+
+        <!--------BANIERE1 TITRE------------>
+        <mj-section
+        background-color="white" >
+        <mj-column>
+            <mj-divider border-width="1px" border-style="solid" border-color="#00a8db" padding-top="30px" width="70%"/>
+        </mj-column>
+            <mj-column>
+                <mj-text
+                padding="0"
+                align="center"
+                color="#00a8db"
+                font-size="13px"
+                padding-left="0">
+                    <h1>Voici un aperçu de la boutique</h1>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+            <mj-divider border-width="1px" border-style="solid" border-color="#00a8db" padding-top="30px" width="70%"/>
+        </mj-column>
+        </mj-section>
+
+        <!-----------CAROUSEL1---------->
+        <mj-section
+        background-color="white" 
+        padding-bottom="30px" 
+        padding-top="0px" >
+            <mj-column >
+                <mj-carousel
+                icon-width="20px"
+                tb-width="100px"
+                tb-border="0px" 
+                left-icon="https://static.cdn.responsys.net/i2/responsysimages/uggs/contentlibrary/promotional/2017/06-june/20170615_u_royale-b/images/arrow-left.png"
+                right-icon="https://static.cdn.responsys.net/i2/responsysimages/uggs/contentlibrary/promotional/2017/06-june/20170615_u_royale-b/images/arrow-right.png">
+
+                    <mj-carousel-image src="https://www.trax-distribution.fr/emailing/vanajanvier/ficheproduit.jpg"/>
+                    <mj-carousel-image src="https://www.trax-distribution.fr/emailing/vanajanvier/catalogue.jpg" />
+                    <mj-carousel-image src="https://www.trax-distribution.fr/emailing/vanajanvier/commandeoneclic.jpg" />
+                    <mj-carousel-image src="https://www.trax-distribution.fr/emailing/vanajanvier/capt_3.jpg" />
+                </mj-carousel>
+        </mj-section>
+        
+        
+
+        <!---------ICONE/BUTTON------------>
+        <mj-section background-color="white">
+            <mj-column width="100%">
+                <mj-button 
+                background-color="#00a8db" 
+                font-size="20px"
+                color="white" 
+                height="50px"
+                width="200px"
+                href="https://www.trax-distribution-shop.com/inscription/"
+                padding="20px 20px 30px 20px" 
+                border-radius="20px">
+                Inscrivez-vous</mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!--------BANIERE2 TITRE------------>
+        <mj-section
+        background-color="white" >
+        <mj-column>
+            <mj-divider border-width="1px" border-style="solid" border-color="#00a8db" padding-top="30px" width="70%"/>
+        </mj-column>
+            <mj-column>
+                <mj-text
+                padding="0"
+                align="center"
+                color="#00a8db"
+                font-size="13px"
+                padding-left="0">
+                    <h1>Voici un aperçu de nos articles </h1>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+            <mj-divider border-width="1px" border-style="solid" border-color="#00a8db" padding-top="30px" width="70%"/>
+        </mj-column>
+        </mj-section>
+
+        <!-----------CAROUSEL2---------->
+        <mj-section
+        background-color="white" 
+        padding-bottom="30px" 
+        padding-top="20px" >
+            <mj-column >
+                <mj-carousel
+                icon-width="20px"
+                tb-width="100px"
+                tb-border="0px" 
+                left-icon="https://static.cdn.responsys.net/i2/responsysimages/uggs/contentlibrary/promotional/2017/06-june/20170615_u_royale-b/images/arrow-left.png"
+                right-icon="https://static.cdn.responsys.net/i2/responsysimages/uggs/contentlibrary/promotional/2017/06-june/20170615_u_royale-b/images/arrow-right.png">
+
+                    <mj-carousel-image src="https://www.trax-distribution.fr/emailing/vanajanvier/cartememoire.jpg"/>
+                    <mj-carousel-image src="https://www.trax-distribution.fr/emailing/vanajanvier/manette.jpg" />
+                    <mj-carousel-image src="https://www.trax-distribution.fr/emailing/vanajanvier/smartwatch.jpg" /> 
+                    <mj-carousel-image src="https://www.trax-distribution.fr/emailing/vanajanvier/disque.jpg" />
+                    <mj-carousel-image src="https://www.trax-distribution.fr/emailing/vanajanvier/phil.jpg" />
+                    <mj-carousel-image src="https://www.trax-distribution.fr/emailing/vanajanvier/huion.jpg" />  
+
+                </mj-carousel>
+        </mj-section>
+
+
+        <!---------FOOTER------------>
+        <mj-section 
+        padding="10px 0 20px 0" 
+        background-color="white">
+            <mj-column>
+                <mj-image 
+                src="https://www.trax-distribution.fr/emailing/vanajanvier/logo_Trax_1.png" 
+                alt="" 
+                width="200px" 
+                height="200px"
+                padding="0" />
+                <mj-text 
+                padding="0"
+                align="center" 
+                font-size="13px">
+                18 allée du grand totem, batiment Cloudy City, </br> 38070 SAINT QUENTIN FALLAVIER
+                </mj-text>
+                <mj-button 
+                background-color="white" 
+                font-size="20px"
+                color="black" 
+                height="50px"
+                width="200px"
+                href="[[UNSUB_LINK_FR]]"
+                padding="20px 20px 30px 20px" 
+                border-radius="20px">
+                Se désinscrire</mj-button>
+            </mj-column>
+            </mj-column>
+        </mj-section>
+
+
+    </mj-body>
+</mjml>
